@@ -1,0 +1,12 @@
+
+IF DB_ID(N'GhalamchiDB') IS NULL
+    CREATE DATABASE GhalamchiDB;
+GO
+
+IF DB_ID(N'KajDB') IS NULL
+    CREATE DATABASE KajDB;
+GO
+
+IF DB_ID(N'SharedStudentsDB') IS NULL
+    CREATE DATABASE SharedStudentsDB;
+GO
